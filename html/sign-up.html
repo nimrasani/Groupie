@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <base> -->
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+    <meta name="description" content="Groupie Signup" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="shortcut icon" href="../assets/media/favicon.ico" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/custom/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--For Phone Flags-->
+    <link rel="stylesheet" href="../assets/css/intlTelInput.css" type="text/css" />
+    <script src="../assets/js/intlTelInput.js"></script>
+    <script src="../assets/js/utils.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-5 bg-white col-aside px-0 pt-15 d-lg-block d-none">
+                <div class="px-30">
+
+
+                    <a href="#" class="login-logo py-6 d-lg-block d-none text-center ">
+                        <img src="../assets/media/logos/groupie.png" class="max-h-70px" alt="" />
+                    </a>
+
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex flex-column stepper pt-5 pt-lg-30">
+                            <div class="d-flex align-items-center stepper-wrapper mb-4 py-3"
+                                data-wizard-state="current">
+                                <div class="d-flex align-items-center justify-content-center icon">
+                                    <!-- <i class="fa fa-check"></i> -->
+                                    <span class="num">1</span>
+                                </div>
+                                <div>
+                                    <h3 class="stepper-title">Account Settings</h3>
+                                    <div class="stepper-desc text-muted">Setup Your Account Details</div>
+                                </div>
+
+                            </div>
+                            <div class="d-flex align-items-center stepper-wrapper py-3" data-wizard-state="pending">
+                                <div class="d-flex align-items-center justify-content-center icon">
+                                    <!-- <i class="ki ki-check"></i> -->
+                                    <span class="num">2</span>
+                                </div>
+                                <div>
+                                    <h3 class="stepper-title">Completed!</h3>
+                                    <div class="stepper-desc text-muted">Review and Submit</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row-fluid illustration-1 pt-2 pt-lg-5">
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 content p-10">
+                <!--Logo-->
+                <div class="d-lg-none d-block  text-center">
+                    <a href="#" class="py-5">
+                        <img src="../assets/media/logos/gropie.PNG" class="max-h-70px" alt="" />
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-center text-right">
+                    <div class="top-signup fs-16 font-weight-medium text-muted pt-5 pb-10 pb-lg-10">
+                        Having issues? <a href="#" class="text-primary font-weight-semibold"> Get Help</a>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <form class="login-form">
+                        <div class="pb-10">
+                            <h3 class="font-weight-semibold fs-29 text-dark">Create Account</h3>
+                            <p class="text-muted font-weight-medium fs-18 m-0">Already have an account?
+                                <a href="../html/sign-in.html" class="font-weight-semibold text-primary">
+                                    Sign In
+                                </a>
+                            </p>
+
+                            <div class="d-flex mt-4">
+                                <button type="button" class="btn-rounded border-0 google mr-4">
+                                    <i aria-hidden="true" class="fa fa-google text-white fs-30"></i>
+                                </button>
+                                <button type="button" class="btn-rounded border-0 facebook mr-4">
+                                    <i aria-hidden="true" class="fa fa-facebook text-white fs-30"></i>
+                                </button>
+                                <button type="button" class="btn-rounded border-0 twitter mr-4">
+                                    <i aria-hidden="true" class="fa fa-twitter text-white fs-30"></i>
+                                </button>
+                                <button type="button" class="btn-rounded border-0 apple mr-4">
+                                    <i aria-hidden="true" class="fa fa-apple text-white fs-30"></i>
+                                </button>
+                            </div>
+
+                            <div class="or">
+                                <span>
+                                    OR
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label for="first-name">
+                                First Name
+                            </label>
+                            <input type="email" class="form-control" id="first-name" aria-describedby="firstName"
+                                placeholder="First Name">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="last-name">
+                                Last Name
+                            </label>
+                            <input type="email" class="form-control" id="last-name" aria-describedby="lastName"
+                                placeholder="Last Name">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="last-name">
+                                Email
+                            </label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email"
+                                placeholder="e.g user@gmail.com">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label>Password</label>
+                            <input type="password" class="form-control" name="password" placeholder="Password"
+                                value="" />
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="phone">
+                                Phone
+                            </label>
+                            <div class="form-control">
+                                <input type="tel" class="form-control py-0" id="phone" aria-describedby="phone">
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-primary py-3 px-4 my-3"
+                                data-wizard-type="action-next">Next Step
+                                <span class="svg-icon svg-icon-md ml-1">
+                                    <!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Right-2.svg-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <polygon points="0 0 24 0 24 24 0 24" />
+                                            <rect fill="#000000" opacity="0.3"
+                                                transform="translate(8.500000, 12.000000) rotate(-90.000000) translate(-8.500000, -12.000000)"
+                                                x="7.5" y="7.5" width="2" height="9" rx="1" />
+                                            <path
+                                                d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z"
+                                                fill="#000000" fill-rule="nonzero"
+                                                transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
+                                        </g>
+                                    </svg>
+                                    <!--end::Svg Icon-->
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/plugins/global/plugins.bundle.js"></script>
+
+    <!--Phone Flags-->
+    <script>
+        var input = document.querySelector("#phone");
+        ipLookUp();
+        // get current user country
+        function ipLookUp() {
+            $.ajax({
+                dataType: 'json',
+                url: 'https://api.hostip.info/get_json.php',
+                success: function (data) {
+                    let $ip = data['ip'],
+                        $city = data['city'],
+                        $countryCode = data['country_code'],
+                        $countryName = data['country_name'];
+                    window.intlTelInput(input, ({
+                        separateDialCode: false,
+                        preferredCountries: ["us", "ca"],
+                        utilsScript: "{{asset('assets/js/utils.js')}}",
+                        nationalMode: false,
+                        initialCountry: $countryCode
+                    }));
+                },
+                error: function (jqXHR, textStatus) {
+                    window.intlTelInput(input, ({
+                        separateDialCode: false,
+                        preferredCountries: ["us", "ca"],
+                        utilsScript: "{{asset('assets/js/utils.js')}}",
+                        nationalMode: false,
+                    }));
+                }
+            });
+            return 0;
+        }
+    </script>
+
+</body>
+
+</html>
