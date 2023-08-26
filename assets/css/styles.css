@@ -173,6 +173,8 @@ a.text-primary:focus {
 
 /* -------------------------------------- BUTTON -------------------------------------- */
 button {
+    font-size: 14px;
+    box-shadow: none !important;
     opacity: 0.8;
     transition: 0.3s;
 }
@@ -184,13 +186,27 @@ button:hover {
 .btn.btn-primary,
 .btn.btn-primary:active,
 .btn.btn-primary:focus {
+    font-weight: 600;
     color: #FFFFFF;
     background-color: #F18A35 !important;
     border-color: #F18A35 !important;
     border-radius: 0.42rem;
-    box-shadow: none !important;
+}
+
+.btn.btn-light-primary{
     font-weight: 600;
-    font-size: 14px;
+    color: #ffffff !important;
+    background-color: #f7c499;
+    border-color: transparent;
+    border-radius: 0.42rem;
+    opacity: 1;
+    box-shadow: none !important;
+}
+
+.btn.btn-light-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
+    background-color: #F18A35
 }
 
 .btn-rounded {
